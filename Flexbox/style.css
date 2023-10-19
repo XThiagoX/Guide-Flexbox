@@ -37,8 +37,8 @@ p{
     font-weight: bold;
     color: aliceblue;
 }
-
-.flexContainer{
+/*---------------------- space-between -------------------*/
+.space-between .flexContainer{
     background:#995db5;
     border: 2px solid #000;
     border-radius: 8px;
@@ -50,17 +50,8 @@ p{
     gap: 1rem;
 }
 
-.flexItem{
-    background:#f7941f;
-    border: 2px solid #000;
-    border-radius: 8px;
-
-    width: 3rem;
-    height: 3rem;
-}
-
-/*---------------------- 2 -------------------*/
-.flexContainer2{
+/*---------------------- row-reverse -------------------*/
+.row-reverse .flexContainer{
     background:#995db5;
     border: 2px solid #000;
     border-radius: 8px;
@@ -74,18 +65,8 @@ p{
     gap: 1rem;
 }
 
-.flexItem2{
-    background:#f7941f;
-    border: 2px solid #000;
-    border-radius: 8px;
-
-    width: 3rem;
-    height: 3rem;
-
-}
-
-/*---------------------- 3 -------------------*/
-.flexContainer3{
+/*---------------------- Column-reverse -------------------*/
+.Column-reverse .flexContainer{
     background:#995db5;
     border: 2px solid #000;
     border-radius: 8px;
@@ -98,7 +79,7 @@ p{
     gap: 1rem;
 }
 
-.flexItem3{
+.flexItem{
     background:#f7941f;
     border: 2px solid #000;
     border-radius: 8px;
