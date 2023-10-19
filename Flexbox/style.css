@@ -37,46 +37,38 @@ p{
     font-weight: bold;
     color: aliceblue;
 }
-/*---------------------- space-between -------------------*/
-.space-between .flexContainer{
+
+.flexContainer{
     background:#995db5;
     border: 2px solid #000;
     border-radius: 8px;
             
-    padding: 2rem;
-        
-    display: flex;
-    justify-content: space-between;
+    width: 15rem;
+    padding: 2rem 0.5rem;
+
     gap: 1rem;
 }
 
+/*---------------------- space-between -------------------*/
+.space-between .flexContainer{        
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
 /*---------------------- row-reverse -------------------*/
-.row-reverse .flexContainer{
-    background:#995db5;
-    border: 2px solid #000;
-    border-radius: 8px;
-              
-    padding: 2rem;
-    
-    
+.row-reverse .flexContainer{  
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
-    gap: 1rem;
+    justify-content: space-between;    
 }
 
 /*---------------------- Column-reverse -------------------*/
-.Column-reverse .flexContainer{
-    background:#995db5;
-    border: 2px solid #000;
-    border-radius: 8px;
-              
-    padding: 2rem;    
-    
+.Column-reverse .flexContainer{   
     display: flex;
     flex-direction: column-reverse;   
-    align-items: center;
-    gap: 1rem;
+    align-items: center;    
 }
 
 .flexItem{
