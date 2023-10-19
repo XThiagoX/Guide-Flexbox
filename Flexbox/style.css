@@ -132,11 +132,51 @@ p{
     flex-wrap: wrap-reverse;          
 }
 
-/*---------------------- column-wrap -------------------*/
-.column-wrap .flexContainer{  
+/*---------------------- flex-flow -------------------*/
+.flex-flow .flexContainer{  
     display: flex;     
-    flex-flow:inherit;   
+    flex-flow: row-reverse;   
 }
+
+/*---------------------- flex-start -------------------*/
+.flex-start .flexContainer{  
+    height: 7rem;
+
+    display: flex;     
+    align-items: flex-start;
+}
+
+/*---------------------- flex-end -------------------*/
+.flex-end .flexContainer{  
+    height: 7rem;
+
+    display: flex;     
+    align-items: flex-end;
+}
+
+/*---------------------- center -------------------*/
+.align-itens-center .flexContainer{  
+    height: 7rem;
+
+    display: flex;     
+    align-items: center;
+}
+/*---------------------- flex-end -------------------*/
+.stretch .flexContainer{  
+    height: 7rem;
+
+    display: flex;     
+    align-items: stretch;
+}
+/*---------------------- flex-end -------------------*/
+.baseline .flexContainer{  
+    height: 7rem;
+
+    display: flex;     
+    align-items: baseline;
+}
+
+/*-------------------------- Elementos filhos (itens) --------------------------*/
 
 .flexItem{
     background:#f7941f;
@@ -146,3 +186,4 @@ p{
     width: 3rem;
     height: 3rem;
 }
+
