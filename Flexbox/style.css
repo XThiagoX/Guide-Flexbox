@@ -59,8 +59,8 @@ p{
     border: 2px solid #000;
     border-radius: 8px;
             
-    width: 16rem;
-    padding: 2rem 0.5rem;
+    width: 16rem;    
+    padding: 0.5rem 0.5rem;
 
     gap: 0.5rem;
 }
@@ -141,7 +141,7 @@ p{
 /*---------------------- flex-start -------------------*/
 .flex-start .flexContainer{  
     height: 7rem;
-
+    
     display: flex;     
     align-items: flex-start;
 }
@@ -175,6 +175,60 @@ p{
     display: flex;     
     align-items: baseline;
 }
+
+/*---------------------- flex-start -------------------*/
+.align-content-flex-start .flexContainer{  
+    height: 10rem;
+    
+    display: flex;     
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+/*---------------------- flex-end -------------------*/
+.align-content-flex-end .flexContainer{  
+    height: 10rem;
+
+    display: flex;   
+    flex-wrap: wrap;  
+    align-content: flex-end;
+}
+
+/*---------------------- center -------------------*/
+.align-content-center .flexContainer{  
+    height: 9rem;
+    
+    display: flex;     
+    flex-wrap: wrap;
+    align-content: center;
+}
+/*---------------------- flex-end -------------------*/
+.align-content-stretch .flexContainer{  
+    height: 10rem;
+
+    display: flex;  
+    flex-wrap: wrap;   
+    align-content: stretch;
+}
+
+/*---------------------- flex-end -------------------*/
+.align-content-space-between .flexContainer{  
+    height: 10rem;
+    
+    display: flex;   
+    flex-wrap: wrap;  
+    align-content: space-between;
+}
+
+/*---------------------- flex-end -------------------*/
+.align-content-space-around .flexContainer{  
+    height: 10rem;
+
+    display: flex;    
+    flex-wrap: wrap; 
+    align-content: space-around;
+}
+
 
 /*-------------------------- Elementos filhos (itens) --------------------------*/
 
