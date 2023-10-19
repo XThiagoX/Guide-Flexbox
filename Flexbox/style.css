@@ -187,3 +187,35 @@ p{
     height: 3rem;
 }
 
+.flexItem:first-child{
+    width: 4rem;
+}
+.flexItem:last-child{
+    width: 5rem;
+}
+.flexItem:nth-child(4){
+    width: 6rem;
+}
+.flexItem:nth-child(5){
+    width: 2rem;
+}
+.flexItem:nth-child(6){
+    width: 2.6rem;
+}
+
+.align-itens .flexItem:first-child{
+    height: 4rem;
+}
+
+.align-itens .flexItem:last-child{
+    height: 5rem;
+}
+.align-itens .flexItem:nth-child(2){
+    height: 6rem;
+}
+.align-itens .flexItem:nth-child(3){
+    height: 2rem;
+}
+.align-itens .flexItem:nth-child(4){
+    height: 2.6rem;
+}
