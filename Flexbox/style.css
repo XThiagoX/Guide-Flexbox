@@ -47,7 +47,13 @@ p{
     font-weight: bold;
     color: aliceblue;
 }
-
+.description{
+    color: rgb(224, 223, 223);
+    margin-left: 3rem;
+    margin-right: 1rem;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+}
 .flexContainer{
     background:#995db5;
     border: 2px solid #000;
@@ -100,9 +106,7 @@ p{
 .row-reverse .flexContainer{  
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;   
-    
-    
+    justify-content: space-between;           
 }
 /*---------------------- Column-reverse -------------------*/
 .Column-reverse .flexContainer{   
@@ -111,7 +115,28 @@ p{
     align-items: center;    
 }
 
+/*---------------------- nowrap -------------------*/
+.nowrap .flexContainer{   
+    display: flex;
+    flex-wrap: nowrap;       
+}
 
+/*---------------------- wrap -------------------*/
+.wrap .flexContainer{       
+    flex-wrap: wrap;      
+    align-items: center;    
+}
+/*---------------------- wrap-reverse -------------------*/
+.wrap-reverse .flexContainer{  
+    display: flex;     
+    flex-wrap: wrap-reverse;          
+}
+
+/*---------------------- column-wrap -------------------*/
+.column-wrap .flexContainer{  
+    display: flex;     
+    flex-flow:inherit;   
+}
 
 .flexItem{
     background:#f7941f;
